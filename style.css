@@ -1,0 +1,272 @@
+@font-face{
+    font-family: 'Along Sans s2';
+    src: url('fonts/AlongSanss2-Regular.otf') format('opentype'),local('Along Sans s2'),
+    url('fonts/AlongSanss2-Bold.otf') format('opentype'),local('Along Sans s2'),
+    url('fonts/AlongSanss2-Light.otf') format('opentype'),local('Along Sans s2'); 
+
+}
+
+*{
+    font-family: 'Along Sans s2';
+}
+
+@media (max-width: 767px){
+
+    video {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 200%;
+        height: 100%;
+        z-index: -1000;
+        background-color: black;
+      }
+      
+    #initial-screen {
+        height: 100vh;
+    }
+
+    #logo-belive{
+        width: 100%;
+    }
+
+    #navbarBelive{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        gap: 15rem;
+    }
+
+    #navbarContainer{
+        justify-content: center;
+    }
+
+    #text-home{
+        text-align: center;
+        color: white;
+        display: grid;
+        font-size: 2rem;
+        text-transform: uppercase;
+        align-items: center;
+        height: 60vh;
+        font-family: 'Along Sans s2';
+        
+    }
+
+    #text-home-2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.3rem;
+    }
+
+    mark {
+        background-color: #FF009E;
+        color: white;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+    }
+
+    #arrow-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    #seta-home{
+        margin-top: 5rem;
+        width: 5rem;
+    }
+
+    #our-services{
+        padding: 1rem;
+        background-color: white;
+    }
+
+    #our-services-icons{
+        margin: 3rem 0 3rem 0 ;
+    }
+
+    #our-services-text{
+        padding: 2rem 0 0 0 ;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    #our-services-text > h3{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .info-icon-service{
+        text-align: center;
+        opacity: 0;
+		-webkit-transform: translateX(-40px);
+			 -moz-transform: translateX(-40px);
+				-ms-transform: translateX(-40px);
+				 -o-transform: translateX(-40px);
+						transform: translateX(-40px);
+		-webkit-transition: all 0.6s ease-out;
+			 -moz-transition: all 0.6s ease-out;
+				-ms-transition: all 0.6s ease-out;
+				 -o-transition: all 0.6s ease-out;
+						transition: all 0.6s ease-out;
+    }
+
+    .info-icon-service.visible {
+		opacity: 1;
+		-webkit-transform: none;
+			 -moz-transform: none;
+				-ms-transform: none;
+				 -o-transform: none;
+						transform: none;
+	}
+
+    .info-icon-service > h4{
+        font-weight: 700;
+    }
+
+    .info-icon-service > p{
+        line-height: 1.2rem;
+        text-transform: uppercase;
+
+    }
+
+    .icon-service{
+        width: 8rem;
+    }
+
+    #clients-carousel{
+        height: 70vh;
+        background-color: #D9D9D9;
+    }
+
+    .icon-slide{
+        width: 15rem;
+    }
+    
+    .swiper-slide{
+        display: flex !important;
+        justify-content: center !important;
+        padding: 5rem;
+    }
+
+    #our-partners{
+        background-color: white;
+        margin: 0;
+    }
+
+    #our-partners-container{
+        padding: 4rem;
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    #our-partners-button{
+        display: grid;
+        gap: 0;
+        font-weight: 900;
+    }
+
+
+    #our-partners-button > p{
+        margin: 0;
+    }
+    #rectangle{
+        padding: 0.3rem 0 0  0.3rem;
+        background-color: #FF009E;
+    }
+    #contact{
+        background-color: black;
+    }
+    #contact-container{
+        padding: 2rem
+    }
+    #contact-container > h3{
+        color: #FF009E;
+        font-weight: 700;
+    }
+    #contact-container > p{
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+    }
+
+    .form-control{
+        background-color:rgba(0,0,0,0);
+        color: white;
+    
+    }
+
+    .form-label{
+        color: white;
+        text-transform: uppercase;
+    }
+
+    #btn-form{
+        background-color: #FF009E;
+        color: black;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 8.5rem 0rem 8.5rem ;
+        margin-top: 2rem;
+    }
+
+    #footer{
+        background-color: #FFCE00;
+    }
+
+    #socials{
+        padding: 1rem;
+    }
+
+    #socials > p{
+        color: black;
+        text-transform: uppercase;
+    }
+
+    #icons-redes{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .icon-rede{
+        justify-content: center;
+        text-align: center;
+    }
+    .icon-rede > p{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .icon-rede > svg{
+        width: 3rem; 
+    }
+    #footer-contact{
+        margin-top: 2rem;
+        display: grid;
+        justify-content: center;
+    }
+    .icon-footer-whatsapp{
+        width: 5rem;
+    }
+
+    #whatsapp{
+        text-align: center;
+    }
+
+    #whatsapp > p{
+        text-transform: uppercase;
+    }
+
+    #phones{
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+}
