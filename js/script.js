@@ -25,4 +25,32 @@ pagination: {
 });
 
 
-                          
+
+
+Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+    get: function () {
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }
+});
+
+
+const videoElement = document.getElementById('video-home');
+        videoElement.addEventListener('suspend', () => {
+            // suspend invoked
+            // show play button
+        });
+
+        videoElement.addEventListener('play', () => {
+        });
+        
+        
+window.onload = function () {
+    const videoElement = document.getElementById('video-home');
+    if (videoElement.playing) {
+    }
+    else {
+        // video is not playing
+        // so play video now
+        videoElement.play();
+    }
+};
