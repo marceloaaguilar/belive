@@ -266,6 +266,7 @@
 
 }
 
+@media (min-width: 1024px) {
 video {
     position: fixed;
     top: 0px;
@@ -536,4 +537,5 @@ mark {
 
 .icon-footer-whatsapp{
     width: 4em;
+}
 }
