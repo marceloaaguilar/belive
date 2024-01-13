@@ -1,14 +1,6 @@
-@font-face{
-    font-family: 'Along Sans s2';
-    src: url('fonts/AlongSanss2-Regular.otf') format('opentype'),local('Along Sans s2'),
-    url('fonts/AlongSanss2-Bold.otf') format('opentype'),local('Along Sans s2'),
-    url('fonts/AlongSanss2-Light.otf') format('opentype'),local('Along Sans s2'),
-    url('fonts/AlongSanss2-ExtraBold.otf') format('opentype'),local('Along Sans s2'); 
-
-}
 
 *{
-    font-family: 'Along Sans s2';
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 767px){
@@ -50,11 +42,10 @@
         color: white;
         display: grid;
         font-size: 2rem;
-        text-transform: uppercase;
         align-items: center;
         height: 60vh;
+        /* MARGIN-TOP: 2rem; */
         font-family: 'Along Sans s2';
-        
     }
 
     #text-home-2{
@@ -72,10 +63,12 @@
     #arrow-icon{
         display: flex;
         justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
     #seta-home{
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
         width: 5rem;
     }
 
@@ -91,7 +84,7 @@
     #our-services-text{
         padding: 2rem 0 0 0 ;
         font-weight: 400;
-        text-transform: uppercase;
+        
     }
 
     #our-services-text > h3{
@@ -129,7 +122,7 @@
 
     .info-icon-service > p{
         line-height: 1.2rem;
-        text-transform: uppercase;
+        
 
     }
 
@@ -166,7 +159,7 @@
         padding-top: 2rem;
         text-align: center;
         font-size: 1.5rem;
-        text-transform: uppercase;
+        
         font-weight: 300;
         margin: 0;
     }
@@ -197,7 +190,7 @@
     }
     #contact-container > p{
         color: white;
-        text-transform: uppercase;
+        
         font-size: 0.7rem;
     }
 
@@ -209,7 +202,7 @@
 
     .form-label{
         color: white;
-        text-transform: uppercase;
+        
     }
 
     #btn-form{
@@ -243,14 +236,14 @@
 
     #socials > p{
         color: black;
-        text-transform: uppercase;
+        
     }
 
     #icons-redes{
         display: grid;
         align-items: center;
         justify-content: center;
-        text-transform: uppercase;
+        
     }
 
     .icones{
@@ -265,7 +258,7 @@
     }
     .icon-rede > p{
         text-align: center;
-        text-transform: uppercase;
+        
     }
 
     .icon-rede > svg{
@@ -285,13 +278,13 @@
     }
 
     #whatsapp > p{
-        text-transform: uppercase;
+        
     }
 
     #phones{
         display: flex;
         justify-content: space-between;
-        text-transform: uppercase;
+        
         margin-top: 2rem;
         gap: 1rem;
     }
@@ -353,7 +346,7 @@ video {
     color: white;
     display: grid;
     font-size: 3rem;
-    text-transform: uppercase;
+    
     align-items: center;
     height: 60vh;
     font-family: 'Along Sans s2';
@@ -397,7 +390,7 @@ mark {
 #our-services-text{
     padding: 2rem 0 0 0 ;
     font-weight: 400;
-    text-transform: uppercase;
+    
 }
 
 #our-services-text > h3{
@@ -435,7 +428,7 @@ mark {
 
 .info-icon-service > p{
     line-height: 1.2rem;
-    text-transform: uppercase;
+    
 
 }
 
@@ -459,7 +452,7 @@ mark {
     padding-top: 2rem;
     text-align: center;
     font-size: 1.5rem;
-    text-transform: uppercase;
+    
     font-weight: 300;
 }
 
@@ -496,7 +489,7 @@ mark {
 }
 #contact-container > p{
     color: white;
-    text-transform: uppercase;
+    
     font-size: 0.7rem;
 }
 
@@ -508,7 +501,7 @@ mark {
 
 .form-label{
     color: white;
-    text-transform: uppercase;
+    
 }
 
 #btn-form{
@@ -529,7 +522,7 @@ mark {
 
 #socials > p{
     color: black;
-    text-transform: uppercase;
+    
 }
 
 #icons-redes{
@@ -545,7 +538,7 @@ mark {
 }
 .icon-rede > p{
     text-align: center;
-    text-transform: uppercase;
+    
 }
 
 .icon-rede > svg{
@@ -564,13 +557,13 @@ mark {
 }
 
 #whatsapp > p{
-    text-transform: uppercase;
+    
 }
 
 #phones{
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
+    
     margin-top: 1rem;
     gap: 1rem;
 }
@@ -603,7 +596,7 @@ mark {
 }
 
 #icons-redes > p{
-    text-transform: uppercase;
+    
 }
 
 .icon-footer-whatsapp{
@@ -634,7 +627,7 @@ mark {
 a{
     text-decoration: none;
     color: black;
-    text-transform: uppercase;
+    margin: 0;
 }
 
 #cta-our-partners{
@@ -681,7 +674,7 @@ a{
             color: white;
             display: grid;
             font-size: 2rem;
-            text-transform: uppercase;
+            
             align-items: center;
             height: 60vh;
             font-family: 'Along Sans s2';
@@ -722,7 +715,7 @@ a{
         #our-services-text{
             padding: 2rem 0 0 0 ;
             font-weight: 400;
-            text-transform: uppercase;
+            
         }
     
         #our-services-text > h3{
@@ -760,7 +753,7 @@ a{
     
         .info-icon-service > p{
             line-height: 1.2rem;
-            text-transform: uppercase;
+            
     
         }
     
@@ -797,7 +790,7 @@ a{
             padding-top: 2rem;
             text-align: center;
             font-size: 1.5rem;
-            text-transform: uppercase;
+            
             font-weight: 300;
             margin: 0;
         }
@@ -828,7 +821,7 @@ a{
         }
         #contact-container > p{
             color: white;
-            text-transform: uppercase;
+            
             font-size: 0.7rem;
         }
     
@@ -840,7 +833,7 @@ a{
     
         .form-label{
             color: white;
-            text-transform: uppercase;
+            
         }
     
         #btn-form{
@@ -878,14 +871,14 @@ a{
     
         #socials > p{
             color: black;
-            text-transform: uppercase;
+            
         }
     
         #icons-redes{
             display: grid;
             align-items: center;
             justify-content: center;
-            text-transform: uppercase;
+            
         }
     
         .icones{
@@ -901,7 +894,7 @@ a{
         }
         .icon-rede > p{
             text-align: center;
-            text-transform: uppercase;
+            
         }
     
         .icon-rede > svg{
@@ -921,13 +914,13 @@ a{
         }
     
         #whatsapp > p{
-            text-transform: uppercase;
+            
         }
     
         #phones{
             display: grid;
             justify-content: space-between;
-            text-transform: uppercase;
+            
             margin-top: 0.5rem;
             /* gap: 1rem; */
         }
@@ -962,8 +955,18 @@ a{
             width: 3rem;
         }
     
-    
-    
-    
+}
 
+#btn-form:hover{
+    background-color: #FFCE00;
+    color: rgb(0, 0, 0);
+}
+
+.icon-button:hover{
+    color: #FF009E;
+}
+
+
+.icon-button svg:hover{
+    fill: #FF009E;
 }
