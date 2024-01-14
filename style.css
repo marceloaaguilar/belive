@@ -20,6 +20,7 @@
       
     #initial-screen {
         height: 100vh;
+        text-align: center;
     }
 
     #logo-belive{
@@ -43,8 +44,7 @@
         display: grid;
         font-size: 2rem;
         align-items: center;
-        height: 60vh;
-        /* MARGIN-TOP: 2rem; */
+        height: 50vh;
         font-family: 'Along Sans s2';
     }
 
@@ -57,7 +57,7 @@
     mark {
         background-color: #FF009E;
         color: white;
-        padding: 0.2rem 1rem 0.2rem 1rem;
+        font-size: 1.5rem;
     }
 
     #arrow-icon{
@@ -340,30 +340,33 @@ video {
     width: 6rem;
   }
 
+  #initial-screen {
+    text-align: center;
+}
+
   #text-home{
     margin-top: 2rem;
     text-align: center;
     color: white;
     display: grid;
     font-size: 3rem;
-    
     align-items: center;
-    height: 60vh;
+    height: 45vh;
     font-family: 'Along Sans s2';
     justify-content: center;
-    
 }
 
 #text-home-2{
     text-align: center;
     font-weight: 700;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 mark {
     background-color: #FF009E;
     color: white;
     padding: 0.2rem 1rem 0.2rem 1rem;
+    font-size: 2rem;
 }
 
 
@@ -652,6 +655,7 @@ a{
           
         #initial-screen {
             height: 100vh;
+            text-align: center;
         }
     
         #logo-belive{
@@ -970,3 +974,4 @@ a{
 .icon-button svg:hover{
     fill: #FF009E;
 }
+
