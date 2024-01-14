@@ -19,6 +19,7 @@
     
       
     #initial-screen {
+        justify-content: center;
         height: 100vh;
         text-align: center;
     }
@@ -341,6 +342,7 @@ video {
   }
 
   #initial-screen {
+    justify-content: center;
     text-align: center;
 }
 
@@ -905,7 +907,6 @@ a{
             width: 3rem; 
         }
         #footer-contact{
-            /* margin-top: 2rem; */
             display: grid;
             justify-content: center;
         }
@@ -937,9 +938,6 @@ a{
             width: 7rem;
         }
     
-        .navbar-toggler{
-            /* background-color: white; */
-        }
     
         .swiper {
             height: 20rem;
@@ -975,3 +973,6 @@ a{
     fill: #FF009E;
 }
 
+#initial-screen{
+    align-items: center;
+}
