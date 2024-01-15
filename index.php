@@ -164,7 +164,7 @@
         <div id="contact-container" class="container">
             <h3>CONTATO</h3>
             <p>Entre em contato conosco para uma consulta gratuita!</p>
-                <form id="form-contact" action="processaEnvioEmail" method="POST">
+                <form id="form-contact" action="processaEnvioEmail.php" method="POST">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome</label>
                         <input type="text" name="name" class="form-control" id="nome" aria-describedby="nome">
