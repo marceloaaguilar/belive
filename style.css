@@ -976,3 +976,12 @@ a{
 #initial-screen{
     align-items: center;
 }
+
+
+.swiper-button-prev,.swiper-button-next{
+    color: #FF009E !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #FF009E !important;
+}
